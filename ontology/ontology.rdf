@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/7A16oa0ExFE0fbYgaQobYU#"
+     xml:base="http://webprotege.stanford.edu/project/7A16oa0ExFE0fbYgaQobYU"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/7A16oa0ExFE0fbYgaQobYU">
+        <webprotege:revision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</webprotege:revision>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describes Relations between NGS files.</rdfs:comment>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Jun 25, 2014 4:05:30 AM</dc:date>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</rdfs:comment>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lindenb</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">system</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8XNeSGo2TfVDX86mRZr4Dt -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8XNeSGo2TfVDX86mRZr4Dt">
+        <rdfs:label>gender</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBIdQyjYrWcc9ATN3DQKex1"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9ZgHoG0P5VRBXOyTGOTm2z -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9ZgHoG0P5VRBXOyTGOTm2z">
+        <rdfs:label>capture</rdfs:label>
+        <rdfs:comment>Associated design for exome capture</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9XC3UV7WUKB7JwaDJOyM4w"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/BO4h2LbfozDB4Llg6gqtiJ"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RB0VgxUXL9ynl4FzYIHlFoZ -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RB0VgxUXL9ynl4FzYIHlFoZ">
+        <rdfs:label>sample</rdfs:label>
+        <rdfs:comment xml:lang="en">Link to a Sample</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBnFKTU1vigGT50ZPIGyGg7"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RC9UMydjX1ds0bWMqFG3RoP"/>
+        <rdfs:range rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/BO4h2LbfozDB4Llg6gqtiJ"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/8fD3ZH1fjBGKxhGvpRhkJL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBGpv8EdYkivAkHWuUJZLrY -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBGpv8EdYkivAkHWuUJZLrY">
+        <rdfs:label xml:lang="en">bed</rdfs:label>
+        <rdfs:comment>Associated BED file</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9XC3UV7WUKB7JwaDJOyM4w"/>
+        <rdfs:range rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#Ra9h6TYBGirXULmDvBbSnm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBukMhPDppMMl5p5PrV2SlG -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBukMhPDppMMl5p5PrV2SlG">
+        <rdfs:label>hasMother</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDlty5oQZJTHl9aFkx54DP1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCZqBucE3pOLQyc6SZjcQxA -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCZqBucE3pOLQyc6SZjcQxA">
+        <rdfs:label xml:lang="en">reference</rdfs:label>
+        <rdfs:comment>Associated Reference</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCrTV3eS5SD4lQw7a47x6pO"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#Ra9h6TYBGirXULmDvBbSnm"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/BO4h2LbfozDB4Llg6gqtiJ"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/8fD3ZH1fjBGKxhGvpRhkJL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDlty5oQZJTHl9aFkx54DP1 -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDlty5oQZJTHl9aFkx54DP1">
+        <rdfs:label>hasParent</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f"/>
+        <rdfs:range rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RHz1meY9wOoLBPnbRf84eo -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RHz1meY9wOoLBPnbRf84eo">
+        <rdfs:label>hasFather</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDlty5oQZJTHl9aFkx54DP1"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8EOqjT1PnzqfsKRZG9PL5X -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8EOqjT1PnzqfsKRZG9PL5X">
+        <rdfs:label>buildVersion</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCrTV3eS5SD4lQw7a47x6pO"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBxAUb2UldtL9MYdCr0UPf0 -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBxAUb2UldtL9MYdCr0UPf0">
+        <rdfs:label>path</rdfs:label>
+        <rdfs:comment>The path to the file</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDOwGEvz9bISRskYQwXuREC -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDOwGEvz9bISRskYQwXuREC">
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="fr">nom</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9XC3UV7WUKB7JwaDJOyM4w"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBnFKTU1vigGT50ZPIGyGg7"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDsIlbhaLiTXkp0UzqWBNez -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDsIlbhaLiTXkp0UzqWBNez">
+        <rdfs:label>ncbiTaxonId</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCrTV3eS5SD4lQw7a47x6pO"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9XC3UV7WUKB7JwaDJOyM4w -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9XC3UV7WUKB7JwaDJOyM4w">
+        <rdfs:label xml:lang="en">Capture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A capture design</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBIdQyjYrWcc9ATN3DQKex1 -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBIdQyjYrWcc9ATN3DQKex1">
+        <rdfs:label xml:lang="en">Gender</rdfs:label>
+        <rdfs:label xml:lang="fr">Genre</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Sample&apos;s gender</rdfs:comment>
+    </owl:Class>
+    
+
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBnFKTU1vigGT50ZPIGyGg7 -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBnFKTU1vigGT50ZPIGyGg7">
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>Placeholder for grouping BAM,VCF,Samples, ...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RC9UMydjX1ds0bWMqFG3RoP -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RC9UMydjX1ds0bWMqFG3RoP">
+        <rdfs:label>Fastq</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCrTV3eS5SD4lQw7a47x6pO -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCrTV3eS5SD4lQw7a47x6pO">
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr"/>
+        <rdfs:comment xml:lang="en">Fasta Reference name indexed with samtools faidx</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDqMQzWdxdxW5r9FhE5IL4f">
+        <rdfs:label>Sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>A Sample sequenced, genotyped</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#Ra9h6TYBGirXULmDvBbSnm -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#Ra9h6TYBGirXULmDvBbSnm">
+        <rdfs:label>BED</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/BO4h2LbfozDB4Llg6gqtiJ -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/BO4h2LbfozDB4Llg6gqtiJ">
+        <rdfs:label xml:lang="en">Bam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr"/>
+        <rdfs:comment>A BAM file sorted and indexed with samtools</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr">
+        <rdfs:label xml:lang="en">File</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/8fD3ZH1fjBGKxhGvpRhkJL -->
+
+    <owl:Class rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/8fD3ZH1fjBGKxhGvpRhkJL">
+        <rdfs:label xml:lang="en">VCF</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#classes/aWvEi4cB8fEizxsT6Usnr"/>
+        <rdfs:comment xml:lang="en">A VCF file indexed with tabix</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8AYVEMmrImjno8BYHEdbVD -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8AYVEMmrImjno8BYHEdbVD">
+        <rdfs:label>Recalibrate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8TblorLdlfFC8qpI6VpGSK -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8TblorLdlfFC8qpI6VpGSK"/>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8zCITSQsFftixYVV5Ev2IE -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R8zCITSQsFftixYVV5Ev2IE">
+        <rdfs:label>RealignAroundIndels</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9NDToPoLZNSGHi1NMF9h50 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#R9NDToPoLZNSGHi1NMF9h50">
+        <rdf:type rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBIdQyjYrWcc9ATN3DQKex1"/>
+        <rdfs:label>Undefined</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCalGP41OHcA4u7UCDpg4dO -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RCalGP41OHcA4u7UCDpg4dO">
+        <rdf:type rdf:resource="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RBIdQyjYrWcc9ATN3DQKex1"/>
+        <rdfs:label>Male</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://en.wikipedia.org/wiki/Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDtgjF88pW95V976O15VsPs -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/lindenb/ngs-ontology/ontology/ontology.rdf#RDtgjF88pW95V976O15VsPs">
+        <rdfs:label>MarkDuplicates</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
